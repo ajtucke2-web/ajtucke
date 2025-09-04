@@ -1,4 +1,4 @@
-<!doctype HTML?
+<!doctype HTML/>
 <HTML>
     <head>
         <meta charset="UTF-8" />
@@ -16,7 +16,7 @@
         <h6>Minor Heading</h6>
 
         <!-- this is my first paragraph -->
-
+        <p id=mypara
         <p>This is a simple paragraph.</p>
 
         <blockquote> This is a blockquote.....</blockquote>
@@ -45,6 +45,10 @@
     <dd>Used Styling page</dd>
     </dl>
     <br>
-    <a href="https:www.olemiss.edu">Ole Miss</a>
+    <a href="https:www.olemiss.edu">Ole Miss</a><br>
+    <a href="about.html">About page</a><br>
+    <a href="#myPara"> First Para</a><br>
+
+<img src="https://picsum.photos/600/400" alt="" />
   </body>
 </HTML>

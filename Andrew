@@ -1,1 +1,50 @@
+<!doctype HTML?
+<HTML>
+    <head>
+        <meta charset="UTF-8" />
+        <title>HTML Elements Examples</title>
+        <!--External CSS File is below-->
+        <link href="/css/myStyles.css" rel="stylesheet"
+        </head>
+        <body>
+        <!-- Headings -->
+        <h1>Main Heading</h1>
+        <h2>Subheading</h2>
+        <h3>Section Title</h3>
+        <h4>Subsection</h4>
+        <h5>Minor Heading</h5>
+        <h6>Minor Heading</h6>
 
+        <!-- this is my first paragraph -->
+
+        <p>This is a simple paragraph.</p>
+
+        <blockquote> This is a blockquote.....</blockquote>
+
+        <p>
+          <i> This is italic</i>
+          <b> This is bold</b>
+          <strong>Another way</strong>
+          <u>Underline tct</u><br />
+        </p>
+        <hr />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<ol>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ol>
+<br>
+<h3>Unordered List</h3>
+<ul>
+    <li>One item</li>
+</ul>
+<br>
+<dl>
+    <dt>HTML</dt>
+    <dd>Used Styling page</dd>
+    </dl>
+    <br>
+    <a href="https:www.olemiss.edu">Ole Miss</a>
+  </body>
+</HTML>

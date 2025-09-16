@@ -29,3 +29,41 @@
         margin:20px auto;
         font-size:1em;
 }
+
+.responsive{
+        width: 100%;
+        background-color:#fcecc9;
+        max-width: 1000px;
+        padding:20px;
+        margin:20-px auto;
+}
+
+.float-box{
+         float:left;
+        width:45%
+        margin: 2.5%;
+        padding:20px;
+        background-color:#c2f0c2;
+}
+
+.clearfix::after{
+content:"";
+    display:block;
+    clear:both;
+}
+
+.block-example{
+display:block;
+    margin:20px 0;
+    background-color: #ffc2c2;
+    padding:10px;
+    
+}
+
+.outline-box{
+    border: 10px solid #333;
+    outline: 40px dashed red;
+    margin: 20px;
+    padding: 10px;
+}
+

@@ -17,8 +17,15 @@
 
 /* Fluid */
 .fluid{
-width: 90%;
+    width: 90%;
     background-color: #d0e8f2;
     padding: 20px;
     margin 20px auto;
+}
+.elastic{
+        width:60em;
+        background-color:#e7f2d9;
+        padding:2em;
+        margin:20px auto;
+        font-size:1em;
 }

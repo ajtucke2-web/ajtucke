@@ -1,1 +1,30 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charsey="UTF-8">
+        <title>Graphics</title>
+</head>
+<body>
+<header>
+      <h1>My duck!</h1>
+  <figure>
+    <img src="coolDuck.jpg" alt="Rubber Duck" />
+    <figcaption>Rubber,duck,bath,sunglasses
+</figure>
+<div id="mainDiv">
+  <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+ <p>this is my cool duck</p>
+</div>
+<div><p>first circle</div>
+<div><p>seond circle</div>
+<div><p>Third circle</div>
+</header>
 
+</body>
+</html>

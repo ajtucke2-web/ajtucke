@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html>
     <head>
-        <meta charsey="UTF-8">
+        <meta charset="UTF-8">
         <title>Graphics</title>
 <style>
         html{
@@ -32,7 +32,7 @@ img{
         border-radius:200px;
         opacity: 0.95;
 }
-div#maindiv{
+div#mainDiv{
         width:50%;
         height: 50%;
         background-color:blue;
@@ -40,6 +40,29 @@ div#maindiv{
         color:white;
         font-weight:bold;
         font-size:18px;
+}
+div{
+        margin:25px auto;
+        padding:10px;
+        width:90%
+}
+div.first{
+        opacity:0.89;
+        border-radius:10px;
+        background-color: #4CAF50;
+        width:40%;
+}
+div.second{
+        opacity:0.88;
+        border-radius:20px;
+        background-color: #ebd934;
+        width:60%;
+}
+div.third{
+        opacity:0.87;
+        border-radius:40px;
+        background-color: #34b4eb;
+        width:80%;
 }
 </style>
 
@@ -62,9 +85,9 @@ div#maindiv{
  <p>this is my cool duck</p>
  <p>this is my cool duck</p>
 </div>
-<div><p>first circle</p></div>
-<div><p>seond circle</p></div>
-<div><p>Third circle</p></div>
+<div class="first"><p>first circle</p></div>
+<div class="second"><p>seond circle</p></div>
+<div> class="third"<p>Third circle</p></div>
 
 
 </body>

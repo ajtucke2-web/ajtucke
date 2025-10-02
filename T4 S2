@@ -1,5 +1,6 @@
 !doctype HTML>
 <html>
+<head>
 <meta charset="UTF-8"
     <title>Colors and graphics</title>
     <style>
@@ -14,18 +15,58 @@
         text-shadow: -10px 20px 10px #fff000
         text-align:center;
 }
+        div{
+        width: 65%;
+        margin:40px auto;
+}
+        div#mainContainer{
+          border:2px solid white;   
+        padding:10px;
+        border-radius:10px;
+        box-shadow:10px 10px 20px blue;
+        background-color:white;
+}
+.neon-glow{
+        font-size:2em;
+        text-shadow:
+            0 0 5px #FF0000;
+            0 0 15px #FF0000;
+            0 0 30px #0000FF;
+            0 0 50px #0000FF;
+}
+    .cool-box{
+        border: 2px solid #FF004F;
+        Padding:20px 30px;
+        background-color: #1A1A1A;
+        border-raduis:12px;
+}
 
-
+.cool-box{
+        cursor:pointer;
+        box-shadow: 0px 10px 30px rgba(255,0,0,0,6)
+        
+}
+.gradient-box{
+        height: 300px;
+        background-image: linear-gradient(to right,blue,red,yellow,green)
+        border-radius:20px;
+        box-shadow: 5px 10px 25px blue;
+}
+gradient-box: hover{
+        cursor:pointer;
+        backround-image:linear-gradient(to right,blue,red,yellow,green)
+}
     </style>
     </head>
     <body>
         <h1 class="text-white-shadow">Smooth Shadow White Text</h1>
-        <div>
-        <h1>Neon Glowing</h1>
-        <div>
+        <div id="mainContainer">
+        <h1 class="neon-glow">Neon Glowing header</h1>
+        <div class="cool-box">
         <h2>Shadow Box</h2>
         <p>Hover me!I am sleek,glowy, and modern</p>
         </div>
-        <div></div>
+        <div> class="gradient-box"</div>
+</div>
     </body>
 </html>

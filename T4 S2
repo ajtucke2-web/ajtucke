@@ -1,8 +1,31 @@
 !doctype HTML>
 <html>
-    <title></title>
-</head>
-<body>
+<meta charset="UTF-8"
+    <title>Colors and graphics</title>
+    <style>
+        body{
+            background-color:#111;
+            color:#fff;
+            margin:25px auto;
+            padding:10px;
+}
+        text-white-shadow{
+        font-size:2.5em; /* 2.5em=40px */
+        text-shadow: -10px 20px 10px #fff000
+        text-align:center;
+}
 
-</body>
+
+    </style>
+    </head>
+    <body>
+        <h1 class="text-white-shadow">Smooth Shadow White Text</h1>
+        <div>
+        <h1>Neon Glowing</h1>
+        <div>
+        <h2>Shadow Box</h2>
+        <p>Hover me!I am sleek,glowy, and modern</p>
+        </div>
+        <div></div>
+    </body>
 </html>

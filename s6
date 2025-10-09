@@ -1,0 +1,103 @@
+<!doctype>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Table with row and column groups</title>
+    <style>
+    caption{
+    cption-side:top;
+    text-align:center;
+    color:Navy;
+    font-weight:bold;
+    }
+    table{
+    border-collapse:collapse;
+    width:100%;
+    font-family:Arial, sans-serif;
+    }
+    th,td{
+    border:1px solid #999;
+    padding:8px;
+    }
+    /* Row Grouping Styles*/
+    thead{
+        background-color:#333
+        color:white;
+        text-transfrom:uppercase;
+      }
+      tbody.fruits-group{
+      background-color: #fff5e6;
+      
+      }
+      tbody.veg-group{
+   background-color: #e6ffe6;
+      }
+      tfoot td{
+      text-aligm:right;
+      border-top:2px solid black;
+}
+    * Column Grouping Styles*/
+    .col-cat{
+      background-color:#f9f9f9;
+      width:120px;
+    }
+    .col-prod{
+ background-color:eef;
+  width:150px;
+    }
+    .col-price{
+ background-color:##efe;
+  width:80px;
+    }
+    <style>
+      </head>
+      <body>
+      <table>
+      <caption>Fruits and veg</caption>
+<!--Column Grouping-->
+<colgroup>
+    <col class="col-cat"></col>
+    <col class="col-prod"></col>
+    <col class="col-price"></col>
+</colgroup>
+
+      <!--Row Grouping-->
+      <thead>
+     <tr>
+        <th>Category</th>
+        <th>product</th>
+        <th>price</th>
+        </tr>
+        </thead>
+        <tbody class="fruits-group">
+        <tr>
+          <td rowspan="2">fruit</td>
+           <td>apple</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+          <td>fruits</td>
+           <td>banana</td>
+            <td>$0.50</td>
+        </tr>
+        </tbody class="veg-group">
+        <tr>
+          <td rowspan>vegetables</td>
+           <td>carrots</td>
+            <td>$0.75</td>
+        </tr>
+        <tr>
+          <td>vegetables</td>
+           <td>spinach</td>
+            <td>$1.25</td>
+        </tr>
+        <tfoot>
+        <tr>
+          <td></td>
+           <td colspan="2"><strong>Total</strong></td>
+            <td>$3.50</td>
+        </tr>
+        </tfoot>
+      </table>
+      <body>
+  </html>

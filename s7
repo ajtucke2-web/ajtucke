@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+<meta charset="UTF-8">
+<title>Web forms</title>
+<style>
+body{
+font-family: Arial, sans-seriff;
+background-color: #f4f4f4
+}
+h1{
+color: #333
+font-size:2em;
+margin-bottom:40px;
+}
+fieldset{
+width:280px
+border-radius:10px;
+padding:15px;
+background-color:#ffffff;
+border:1px solid #ccc;
+float: left;
+margin-left:30px;
+}
+legend{
+background-color:
+font-size:1 em;
+font-weight:bold;
+border-radius:5px;
+padding:10px;
+}
+label{
+display:block;
+font-weight:bold;
+cursor:pointer;
+
+}
+
+input,textarea{
+width:95%
+padding:8px;
+margin-top:5px;
+border-radius:5px;
+}
+</style>
+</head>
+<body>
+    <h1>Student registration form</h1>
+    <form id="studentForm" action"htpps://www.olemiss.edu" method="post">
+
+    <!--Student Info-->
+  <fieldset id="studentInfo">
+<legend>Student Information</legend>
+
+    <label for="firstName">First Name</label>
+<input name="firstName" id="firstName" type="text" placeholder="">
+
+<label for="1Name"></label>
+<input name="lastName" id="1Name" type="text" placeholder="">
+
+<label for="">DOB</label>
+<input name="dob" id="dob" type="date">
+
+<label for="pNum">Phone</label>
+<input name="pNum" id="pNum" type="tel" placeholder="(123)222">
+
+<label for="eAdd">Email Address</label>
+<input name="emailAdd" id="eAdd" type="email" placeholder="you@example.com">
+
+<label for="state">State</label>
+<input name="state" id="state" type="text" placeholder="MS">
+
+<label for="zipCode">Zip Code</label>
+<input name="zipCode" id="zipCode" type="text" value="38655">
+  <fieldset>
+<fieldset>
+<legend>Shirt Preference</legend>
+  <label for="pickupTime">Pickip Time</label>
+  <input name="pTime" id="Pickup Time" type="time">
+
+  <label for="shirtColor">ShirtColor</label>
+  <input name="shirtColor" id="shirtColor" type="color">
+
+  <label>Shirt Size and preferences</label>
+  <textarea name="shirtPref1 "id="shirtPref" rows="5" placeholder="Enter size and many other details"></textarea>
+
+    <filedset>
+
+</form>
+</body>

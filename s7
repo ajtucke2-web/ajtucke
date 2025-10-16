@@ -45,6 +45,11 @@ border-radius:5px;
 input: foxus, textarea:focus{
 box-shadow: 0 0 0 3px red;
 )
+.rb{
+    width:15px;
+    display:inline;
+    margin: 5px 0px 10px 0px;
+}
 </style>
 </head>
 <body>
@@ -84,10 +89,45 @@ box-shadow: 0 0 0 3px red;
   <label for="shirtColor">ShirtColor</label>
   <input name="shirtColor" id="shirtColor" type="color">
 
-  <label>Shirt Size and preferences</label>
+  <label for="preferences">Shirt Size and preferences</label>
   <textarea name="shirtPref1 "id="shirtPref" rows="5" placeholder="Enter size and many other details"></textarea>
+</fieledset>
+<!--Food and hobbies-->
+<fieldset id="studentSelection">
+<legend>Food and hobbies</legend>
 
-    <filedset>
+<label for="activities">Favorite things to do</label>
+<select id="activities" multiple size="5">
+<option value="0">Select One</option>
+  <optgroup label="Playing">
+<option value="tennis1">tennis1</option>
+<option value="football2">football2</option>
+<option value="golf3">golf3</option>
+</optgroup>
+
+<optgroup label="studying">
+<option value="M1">Math</option>
+<option value="E2">english</option>
+<option value="html">HTML</option>
+</optgroup>
+
+</select>
+
+<label>do you like programming the web?</label>
+<input class="rb" name="rbProg"> id="rbProgYes" value="yes" type"radio" checked><label for="rbProgYes">Yes</label>
+<input class="rb" name="rbProg"> id="rbProgNo" value="no" type"radio"><label for="rbProgNo">No</label>
+
+<label>fav food?</label>
+<input class="rb" name="food"> id="cbHam" value="Hamburger" type"checkbox"><label class="rb" for="cbHam">Hamburger</label>
+<input class="rb" name="food"> id="cbChicken" value="chicken" type"checkbox"><label class="rb" for="cbChicken">chicken</label>
+
+<label for="studyHrs" style="display:inline">study hours per week</label>
+<input type="number" min="1" max="20" value="1" id="studyHrs" style="width:35px">
+
+<label for="mood">Your mood (0=bad and 10=best></label>
+<input type="range" min="1" max="10" value="5" id="mood" step="1">
+</fieldset>
 
 </form>
 </body>
+</html>

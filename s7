@@ -126,6 +126,20 @@ box-shadow: 0 0 0 3px red;
 
 <label for="mood">Your mood (0=bad and 10=best></label>
 <input type="range" min="1" max="10" value="5" id="mood" step="1">
+
+<label>Fav dessert</label>
+<input list="dType" name-"fdes" id="favDes">
+<datalist id="dType">
+<option value="brownie">
+<option value="choc cake">
+<option value="choc chip cookies">
+</datalist>
+
+<label for="sWord">secret word</label>
+<input name="sWord" id="sWord" type="password"
+
+<input id="cancelBtn" type="reset" value="Cancel">
+<input type="submit" id="Sbtn" value="Send Data">
 </fieldset>
 
 </form>
